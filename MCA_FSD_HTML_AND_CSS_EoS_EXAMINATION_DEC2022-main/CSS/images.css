@@ -1,0 +1,104 @@
+body{
+    background-color: aqua;
+    display: grid;
+}
+.home {
+    margin-left: 1450px;
+    margin-top: 100px;
+    width: 80px;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 3rem;
+}
+#images{
+    border: none;
+    height: 80px;
+    width: 1400px;
+    padding: 100px;
+    background-color: pink;
+    font-weight: 1000;
+    margin-top: 200px;
+}
+
+#images a{
+    border: none;
+    margin-left: 250px;
+    text-decoration: none;
+    font-size: 50px;
+    color: blue;
+    margin-top: 300px;
+}
+#images a:hover{
+    border: none;
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 70px;
+    color:black;
+    margin-top: 300px;
+    transition: 1s;
+    text-shadow: 2px 2px red;
+}
+.top{
+    margin-left: 1500px;
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+}
+.top:hover{
+    font-size: 40px;
+    color: black;
+    transition: .2s;
+}
+#image img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 2s;
+    position:sticky;
+}
+#image img:hover{
+    width: 280px;
+    height: 270px;
+    box-shadow: 10px 10px 10px 10px blue;
+    transition: 1s;
+}
+#hall{
+    border: 3px solid black;
+    margin-top: 300px;
+    height: 700px;
+    background-color: pink;
+}
+.row-one{
+    display: flex;
+}
+.row-two{
+    display: flex;
+}
+#bedroom{
+    border: 3px solid black;
+    margin-top: 200px;
+    height: 700px;
+    background-color: pink;
+}
+.column-one{
+    display: flex;
+}
+.column-two{
+    display: flex;
+}
+#kitchen{
+    border: 3px solid black;
+    margin-top: 200px;
+    height: 700px;
+    background-color: pink;
+}
+.column-row-one{
+    display: flex;    
+}
+.column-row-two{
+    display: flex;
+}

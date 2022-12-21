@@ -1,0 +1,85 @@
+body{
+  height: 600px;
+  background-image: -moz-linear-gradient(-90deg,pink,aqua,pink);
+  background-image: -o-linear-gradient(-90deg,pink,aqua,pink);
+  background-image: -webkit-linear-gradient(-90deg,pink,aqua,pink);
+  display: grid;
+}
+.home {
+  margin-left: 1450px;
+  margin-top: 100px;
+  width: 80px;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 3rem;
+}
+input{
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+}
+#h10{
+      height: 200px;
+      width: 300px;
+}
+label{
+      text-align: right;
+      width: 11em;
+      float: left;
+}
+#contacts{
+      border: 1px solid black;
+      display: flex;
+      border: none;
+      width: 1650px;
+      height: 500px;
+}
+#left-column{
+      position: relative;
+      border: none;
+      margin-left: 70px;
+      margin-top: 30px;
+      width: 600px;
+      height: 300px;
+      font-size: 30px;
+}
+      
+.name{
+      margin-top: 100px;
+      margin-left: -70px;
+}
+#right-column{
+      border: none;
+      margin-left: 200px;
+      margin-top: 30px;
+      width: 600px;
+      height: 300px;
+      font-size: 30px;
+}
+#right-column button{
+      margin-left: 350px;
+}
+.row{
+      margin-left: 10px;
+      margin-top: 90px;
+}
+.feed{
+      margin-left: -130px;
+}
+button{
+      margin-top: 20px;
+      font-size: 30px;
+}
+.name button{
+      margin-left: 400px;
+      font-size: 30px;
+}
+#refer{
+      border: none;
+      margin-top: -20px;
+      margin-left: 600px;
+      padding: 20px;
+      width: 400px;
+}

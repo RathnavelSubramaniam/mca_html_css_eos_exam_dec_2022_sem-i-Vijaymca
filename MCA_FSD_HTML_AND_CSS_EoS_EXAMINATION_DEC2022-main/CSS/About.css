@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  background-color: aqua;
+  transition: 1s;
+  color: black;
+  display: grid;
+}
+.home {
+  margin-left: 1450px;
+  margin-top: 100px;
+  width: 80px;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 3rem;
+}
+body:hover{
+  background-color: red;
+  transition: 1s;
+  color: whitesmoke;
+}
+.class{
+  display: flex;
+  transition: 2s;
+}
+.student1{
+  display: grid;
+}
+.student1 a{
+  margin-left: 120px;
+  margin-top: -90px;
+  text-decoration: none;
+  font-size: 30px;
+  color: yellow;
+}
+.student1 img{
+  width: 270px;
+  height: 270px;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+.student1 img:hover{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 150px;
+  transition: 2s;
+}
+.student2{
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-style: italic;
+}
+.department{
+  display: flex;
+  transition: 2s;
+}
+.staff {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-style: italic;
+}
+.head-of-dep{
+  display: grid;
+}
+.head-of-dep a{
+  margin-left: 110px;
+  margin-top: -70px;
+  text-decoration: none;
+  font-size: 30px;
+  color: yellow;
+}
+.head-of-dep img{
+  width: 270px;
+  height: 270px;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+.head-of-dep img:hover{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 150px;
+  transition: 2s;
+}
+span{
+  font-size: 30px;
+  color: yellow;
+  text-decoration: none;
+}
